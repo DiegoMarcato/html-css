@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+        }
+        header{
+            background-color: aquamarine;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: aquamarine;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px black;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightcoral;
+        }
+        article > aside{
+            background-color: brown;
+        }
+
+        nav{
+            background-color: chartreuse;
+            padding: 5px;
+            margin: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 315);
+        }
+        nav:hover{
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+        footer > a:hover{
+            font-weight: bolder;
+            color: rebeccapurple;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding: 4px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assunto">
+
+        </section>
+        <section>
+            <article>
+                <h2>Notícia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quod nisi nulla repellat dolorum excepturi ex cupiditate temporibus! Ut repellendus repudiandae vel animi ea repellat dolores voluptas assumenda, amet architecto?</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+       <p>Desenvolvido pelo Diego Marcato</p>
+       <a href="http://instagram.com" target="_blank">instagram</a>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
